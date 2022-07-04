@@ -9,18 +9,40 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange-color{
     color: rgb(249, 172, 30);
 }
-section{
+.container{
     display: flex;
+    border-radius: 10px;
 }
 .half-width{
-    width: 50%;
-    padding: 2%;
+    width: 60%;
+    padding: 5%;
+}
+.item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 7px solid blue;
+    border-radius: 10px;
+}
+.changed{
+    margin-right:70px ;
+}
+.padding-added{
+    padding-left: 10%;
+}
+#padding{
+    text-align: justify;
 }
 .half-width img{
-    width: 80%;
+    width: 100%;
 }
 .link-botton{
     text-decoration: none;
@@ -29,4 +51,39 @@ section{
     font-weight: 700;
     color: white;
     border-radius: 5px;
+}
+.resume{
+    text-decoration: none;
+    background-image:linear-gradient(rgb(253, 58, 58), rgb(239, 79, 154));
+    padding: 10px 20px;
+    font-weight: 700;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+}
+.middle-dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+/* second-section-complete */
+
+/* last-part-start */
+.exprience{
+    text-align: left;
+}
+.last-part{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#one-side{
+    border-left: 7px solid tomato;
+}
+#second-side{
+    border-left: 7px solid blue;
+}
+footer{
+    text-align: center;
+    margin-top: 200px;
 }
